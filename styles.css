@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+.dashboard {
+  height: 100vh;
+  background-color: cadetblue;
+}
+.nav {
+  background-color: peachpuff;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+input {
+  width: 250px;
+  height: 50%;
+  border-radius: 6px;
+}
+.buttons {
+}
+button {
+  background-color: peachpuff;
+  color: black;
+  border-radius: 6px;
+  width: 60px;
+  height: 30px;
+}
